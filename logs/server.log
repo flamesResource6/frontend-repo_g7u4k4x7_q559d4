@@ -1,0 +1,16 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 282 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.15.31:3000/
+[vite:css] @import must precede all other statements (besides @charset or empty @layer)
+3  |  @tailwind utilities;
+4  |  
+5  |  @import './components/styles.css';
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+6  |  
+7  |  @layer base {
